@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+// const buttonStyle = { color: "white", background: "blue" };
+
+// const RowWithButton = (grid: unstable_GridStateReturn) => (
+//   <GridRow {...grid}>
+//     <GridCell {...grid}>
+//       <Button style={buttonStyle}>Test</Button>
+//     </GridCell>
+//   </GridRow>
+// );
 
 function App() {
+  // const grid = useGridState();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Grid {...grid} aria-label="haptic-grid">
+        {RowWithButton(grid)}
+        {RowWithButton(grid)}
+        {RowWithButton(grid)}
+      </Grid> */}
     </div>
   );
 }
