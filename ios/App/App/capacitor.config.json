@@ -1,0 +1,6 @@
+{
+	"appId": "dev.mitchinson.haptic_test",
+	"appName": "haptic-test",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
